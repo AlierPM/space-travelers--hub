@@ -9,10 +9,12 @@
 
 /* Styling Header */
 .panel-bg {
-  display: flex;
-  justify-content: space-between;
   background-color: #fff;
-  margin: auto 60px;
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .Logo-Text {
@@ -54,8 +56,12 @@
   letter-spacing: 1.9px;
   color: var(--black-two);
 }
-
-.navigation {
+header ul {
+  list-style: none;
   display: flex;
-  margin-top: 20px;
+  gap: 10px;
+  margin-right: 2rem;
+}
+.logo {
+  margin-left: 2rem;
 }
