@@ -1,5 +1,5 @@
-@import url("http://fonts.cdnfonts.com/css/montserrat");
-@import url("http://fonts.cdnfonts.com/css/roboto-slab-2");
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+@import url('http://fonts.cdnfonts.com/css/roboto-slab-2');
 
 *,
 *::before,
@@ -18,8 +18,7 @@
 }
 
 .Logo-Text {
-  width: 17rem;
-  height: 2.313rem;
+  height: 2rem;
   font-family: Montserrat, sans-serif;
   font-size: 1.875rem;
   font-weight: bold;
@@ -40,7 +39,7 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.9px;
-  color: var(--black-two);
+  color: #0290ff;
 }
 
 .Myprofile {
@@ -54,14 +53,47 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.9px;
-  color: var(--black-two);
+  color: #0290ff;
 }
+
 header ul {
   list-style: none;
   display: flex;
   gap: 10px;
   margin-right: 2rem;
 }
-.logo {
+
+.logoFrame {
   margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:active {
+  color: hotpink;
+  text-decoration: underline;
+}
+
+.Myprofile::before {
+  content: '|';
+  margin-right: 1rem;
+}
+
+hr.horizon {
+  border-top: 1px solid #0290ff;
 }
