@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 @import url('http://fonts.cdnfonts.com/css/montserrat');
 @import url('http://fonts.cdnfonts.com/css/roboto-slab-2');
-=======
-@import url("http://fonts.cdnfonts.com/css/montserrat");
-@import url("http://fonts.cdnfonts.com/css/roboto-slab-2");
->>>>>>> development
 
 *,
 *::before,
@@ -14,7 +9,6 @@
 
 /* Styling Header */
 .panel-bg {
-<<<<<<< HEAD
   background-color: #fff;
   width: 100%;
   display: flex;
@@ -25,17 +19,6 @@
 
 .Logo-Text {
   height: 2rem;
-=======
-  display: flex;
-  justify-content: space-between;
-  background-color: #fff;
-  margin: auto 60px;
-}
-
-.Logo-Text {
-  width: 17rem;
-  height: 2.313rem;
->>>>>>> development
   font-family: Montserrat, sans-serif;
   font-size: 1.875rem;
   font-weight: bold;
@@ -56,11 +39,7 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.9px;
-<<<<<<< HEAD
   color: #0290ff;
-=======
-  color: var(--black-two);
->>>>>>> development
 }
 
 .Myprofile {
@@ -74,7 +53,6 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.9px;
-<<<<<<< HEAD
   color: #0290ff;
 }
 
@@ -118,12 +96,4 @@ a:active {
 
 hr.horizon {
   border-top: 1px solid #0290ff;
-=======
-  color: var(--black-two);
-}
-
-.navigation {
-  display: flex;
-  margin-top: 20px;
->>>>>>> development
 }

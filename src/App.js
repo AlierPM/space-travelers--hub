@@ -9,33 +9,14 @@ import Navbar from './components/navbar/Navbar';
 function App() {
   return (
     <div>
-      <header className="panel-bg">
-        <div className="navigation">
-          <span className="Logo-Text">Space Travelers Hub</span>
-          <ul>
-            <li>
-              <Link to="/rocket" className="Mission Text-Style-3">
-                Rocket
-              </Link>
-            </li>
-            <li>
-              <Link to="/mission" className="Mission Text-Style-3">
-                Missions
-              </Link>
-            </li>
-            <li>
-              <Link to="/dragon" className="Myprofile Text-Style-3">
-                Dragon
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </header>
+      <Navbar />
+
       <main>
         <Routes>
           <Route path="/rocket" element={<Rocket />} />
           <Route path="/mission" element={<Mission />} />
           <Route path="/dragon" element={<Dragon />} />
+          <Route path="/myProfile" element={<Profile />} />
         </Routes>
       </main>
     </div>
