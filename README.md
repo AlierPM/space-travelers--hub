@@ -65,17 +65,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - Twitter: [@AlierPM](https://twitter.com/AlierPM)
 - LinkedIn: [@AlierPM](https://www.linkedin.com/in/alier-philip-maguet-b11653203/)
 
-:bust_in_silhouette: **Alier Philip Maguet**
+:bust_in_silhouette: **Petro Loltolo Lesapiti**
 
-- GitHub: [@AlierPM](https://github.com/AlierPM)
-- Twitter: [@AlierPM](https://twitter.com/AlierPM)
-- LinkedIn: [@AlierPM](https://www.linkedin.com/in/alier-philip-maguet-b11653203/)
+- GitHub: [@petrolesapiti](https://github.com/Loltolo-Lesapiti)
+- LinkedIn: [@petrolesapiti](https://www.linkedin.com/in/petrolesapitiloltolo/)
 
-:bust_in_silhouette: **Alier Philip Maguet**
+:bust_in_silhouette: **Bantealem Geto**
 
-- GitHub: [@AlierPM](https://github.com/AlierPM)
-- Twitter: [@AlierPM](https://twitter.com/AlierPM)
-- LinkedIn: [@AlierPM](https://www.linkedin.com/in/alier-philip-maguet-b11653203/)
+- GitHub: [Bantealem](https://github.com/Bantealem)
+- Twitter: [Bantealem](https://twitter.com/BantealemG)
+- LinkedIn: [Bantealem](https://www.linkedin.com/in/bantealem-geto-a301b9213/)
 
 ## 🤝 Contributing
 
