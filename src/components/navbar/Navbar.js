@@ -28,7 +28,7 @@ function Navbar() {
           </li>
           <li>
             <Link to="/profile" className="Myprofile Text-Style-3">
-              Myprofile
+              My profile
             </Link>
           </li>
         </ul>
