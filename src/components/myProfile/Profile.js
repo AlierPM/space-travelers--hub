@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import "./profile.css";
 const Profile = () => {
   const rockets = useSelector((state) => state.rockets.rockets);
-  const reserved = rockets.filter((rocket) => rocket.reserved === true);
+  const reservedRocket = rockets.filter((rocket) => rocket.reserved === true);
   return (
     <div className="profile">
       <table class="table">
@@ -13,7 +13,7 @@ const Profile = () => {
           </tr>
         </thead>
         <tbody>
-          {rockets.map((rocket) => {
+          {reservedRocket.map((rocket) => {
             return (
               <td scope="col" id={rocket.id}>
                 {rocket.rocket_name}
@@ -29,7 +29,7 @@ const Profile = () => {
           </tr>
         </thead>
         <tbody>
-          {rockets.map((rocket) => {
+          {reservedRocket.map((rocket) => {
             return <td id={rocket.id}>{rocket.rocket_name}</td>;
           })}
         </tbody>
