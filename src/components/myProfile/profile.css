@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.reserved {
+  border: 2px solid black;
+  margin: 10px;
+  padding: 5px 150px;
+}
+.table {
+  width: 400px;
+  border: 1px solid gray;
+}
+.profile {
+  display: flex;
+  gap: 20px;
+}
+tbody {
+  display: flex;
+  flex-direction: column;
+}
