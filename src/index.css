@@ -6,9 +6,11 @@
 *::after {
   box-sizing: border-box;
 }
+
 header {
-  margin-top: 20px;
+  margin-bottom: 50px;
 }
+
 /* Styling Header */
 .navigation {
   background-color: #fff;
