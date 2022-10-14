@@ -1,10 +1,10 @@
 import { Link, Route, Routes } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
-import Rocket from "./components/rocket/rocketContainer";
+import Rocketcontainer from "./components/rocket/rocketcontainer";
 import Dragon from "./components/dragon/dragon";
 import Mission from "./components/mission/mission";
-import Profile from "./components/profile/profile";
+import Profile from "./components/myProfile/Profile";
 import { fetchRockets } from "./redux/rocket/rocketSlice";
 
 function App() {
@@ -44,7 +44,7 @@ function App() {
       </header>
       <main>
         <Routes>
-          <Route path="/rocket" element={<Rocket />} />
+          <Route path="/rocket" element={<Rocketcontainer />} />
           <Route path="/mission" element={<Mission />} />
           <Route path="/dragon" element={<Dragon />} />
           <Route path="/profile" element={<Profile />} />
