@@ -1,6 +1,6 @@
 /* eslint-disable */
 import propTypes from "prop-types";
-import "./style.css";
+import "./rocket.css";
 function Rocket({
   id,
   rocket_name,

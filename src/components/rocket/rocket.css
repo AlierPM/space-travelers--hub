@@ -3,18 +3,22 @@
 *::after {
   box-sizing: border-box;
 }
+
 .reserve-text {
   color: #fff;
   background-color: rgb(38, 177, 231);
   border-radius: 5px;
 }
+
 .reserve-btn {
   color: white;
   background: blue;
 }
+
 .cancel-btn {
   background: whitesmoke;
 }
+
 .container {
   border: 1px solid rgb(138, 135, 135);
   margin-bottom: 25px;
