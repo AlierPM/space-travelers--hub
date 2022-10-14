@@ -1,18 +1,22 @@
-import { Link, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
-import Rocketcontainer from './components/rocket/rocketcontainer';
-import Dragon from './components/dragon/dragon';
+// Import rocket, mission, dragon and profile for the navlinks to function.
+import Rocket from './components/rocket/rocket';
 import Mission from './components/mission/mission';
 import Profile from './components/myProfile/Profile';
-import { fetchRockets } from './redux/rocket/rocketSlice';
+import Navbar from './components/navbar/Navbar';
+import DragonPage from './components/dragon/dragon';
+import { loadDragons } from './redux/dragon/dragon';
 
 function App() {
   const dispatch = useDispatch();
+  const getDragons = () => {
+    dispatch(loadDragons());
+  };
   useEffect(() => {
-    dispatch(fetchRockets());
-  }, [dispatch]);
-
+    getDragons();
+  }, []);
   return (
     <div>
       <header className="panel-bg">
@@ -46,7 +50,7 @@ function App() {
         <Routes>
           <Route path="/rocket" element={<Rocketcontainer />} />
           <Route path="/mission" element={<Mission />} />
-          <Route path="/dragon" element={<Dragon />} />
+          <Route path="/dragon" element={<DragonPage />} />
           <Route path="/profile" element={<Profile />} />
         </Routes>
       </main>

@@ -1,10 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
-import rocketSlice from '../rocket/rocketSlice';
+import logger from 'redux-logger';
+import dragonReducer from '../dragon/dragon';
 
 const store = configureStore({
   reducer: {
-    rockets: rocketSlice,
+    dragon: dragonReducer,
   },
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
 });
 
 export default store;
