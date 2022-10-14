@@ -26,7 +26,10 @@ function Navbar() {
     <div>
       <header className="panel-bg">
         <div className="navigation">
-          <span className="Logo-Text">Space Travelers Hub</span>
+          <div className="logoFrame">
+            <img className="logo" src="/planet.png" alt="space logo" />
+            <span className="Logo-Text">Space Travelers Hub</span>
+          </div>
           <ul>
             <li>
               <Link to="/rocket" className="Mission Text-Style-3">
