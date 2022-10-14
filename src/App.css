@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 0 2rem;
+  border: 1px solid red;
+}
+
+.navbarMenu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #d1d0d0;
+  margin-bottom: 2.5rem;
+  background-color: aqua;
+  position: sticky;
+  top: 0;
+  bottom: 1rem;
+  border: 3px solid #73ad21;
+}
+
+.logo {
+  display: flex;
+}
+
+.img {
+  width: 64px;
+  height: 64px;
+  margin-right: 1rem;
+}
+
+.menu {
+  margin-top: 1rem;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 3rem;
+}
+
+.menu ul li {
+  color: #4386bf;
+}
+
+.menu ul li:hover {
+  cursor: pointer;
+}
+
+.menu ul li:nth-child(2)::after {
+  content: '|';
+  margin-right: 0.5rem;
+}
+
+.card {
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.menu a.active {
+  text-decoration: underline;
+}
+
+.join-btn {
+  display: inline-block;
+  text-align: center;
+  font-size: 0.8rem;
+  width: 7rem;
+  padding: 0.5rem 0;
+  border-radius: 0.3rem;
+  border: 0.4px solid black;
+}
+
+.badge-primary {
+  display: block;
+  font-size: 0.8rem;
+  width: 7rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  background-color: #18a2b8;
+}
+
+.red {
+  background-color: #989ea4;
+}
+
+.MissionPageTable tbody tr:nth-child(even) {
+  background-color: #ececec;
+}
+
+.cardImg img {
+  width: 250px;
+  margin-right: 1rem;
+}
+
+.p1 {
+  font-size: 1.5rem;
+}
+
+.p2 {
+  font-size: 15px;
+}
+
+.card-1 {
+  display: flex;
+}
+
+.button-a {
+  background: rgb(53, 181, 231);
+  border: none;
+  color: #fff;
+  padding: 5px;
+}
+
+.profileTable {
+  width: 100%;
+}
+
+.leave-btn {
+  display: inline-block;
+  text-align: center;
+  font-size: 0.8rem;
+  width: 7rem;
+  padding: 0.5rem 0;
+  border-radius: 0.3rem;
+  border: 0.4px solid red;
+  background-color: #fff;
+  color: red;
+}
+
+.align {
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.spanMessage {
+  background-color: #4698a1;
+  color: #fff;
+  padding: 3px 6px;
+}
+
+.rocketTable {
+  border: 1px solid rgb(214, 210, 210);
+  border-bottom: none;
+}
+
+.list {
+  padding: 16px;
+  border-bottom: 1px solid rgb(214, 210, 210);
+}
+
+.displayMission {
+  width: 50%;
+}
+
+.displayRocket {
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+}
+
+.cancel {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 hsl(180deg 5% 84% / 50%);
+  color: #000;
+  border: 1px solid;
+  padding: 3px 6px;
+}
+
+.availableRockets {
+  width: 45%;
+}
