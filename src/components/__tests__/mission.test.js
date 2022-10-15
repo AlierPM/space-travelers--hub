@@ -1,3 +1,6 @@
+/* eslint-disable object-curly-newline */
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable no-unused-vars */
 import renderer from 'react-test-renderer';
 import Missions from '../mission/mission';
 
