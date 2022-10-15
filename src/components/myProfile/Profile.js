@@ -8,6 +8,8 @@ const Profile = () => {
   const joinMission = missionList.filter(
     (mission) => mission.reserved === true,
   );
+  const dragons = useSelector((state) => state.dragon)
+  const bookedDragons=dragons.filter((dragon) => dragon.reserved === true);
   return (
     <div className="profile">
       <table class="table">
@@ -23,6 +25,18 @@ const Profile = () => {
                 {mission.mission_name}
               </td>
             );
+          })}
+        </tbody>
+      </table>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">My Dragons</th>
+          </tr>
+        </thead>
+        <tbody>
+          {bookedDragons.map((dragon) => {
+            return <td id={dragon.id}>{dragon.dragon_name}</td>;
           })}
         </tbody>
       </table>
