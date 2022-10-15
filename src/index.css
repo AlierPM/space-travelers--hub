@@ -1,5 +1,5 @@
-@import url("http://fonts.cdnfonts.com/css/montserrat");
-@import url("http://fonts.cdnfonts.com/css/roboto-slab-2");
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+@import url('http://fonts.cdnfonts.com/css/roboto-slab-2');
 
 *,
 *::before,
@@ -8,10 +8,10 @@
 }
 
 header {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+  border-bottom: 1px solid rgb(8, 8, 155);
 }
 
-/* Styling Header */
 .navigation {
   background-color: #fff;
   width: 100%;
@@ -94,7 +94,7 @@ a:active {
 }
 
 .Myprofile::before {
-  content: "|";
+  content: '|';
   margin-right: 1rem;
 }
 
