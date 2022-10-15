@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check for second Space X hub 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <img
+      alt="Rocket"
+      className="rocket col-4"
+      src="https://farm1.staticflickr.com/929/28787338307_3453a11a77_b.jpg"
+    />
+    <div
+      className="col-8"
+    >
+      <h3
+        className="col-12"
+      >
+        Space X 2
+      </h3>
+      <p
+        className="col-12 my-4"
+      >
+        <span
+          className="reserve-text"
+        >
+           
+           
+        </span>
+      </p>
+       
+      <button
+        className="reserve-btn p-3 col-4"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        Reserve Rocket
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Check for the Second Space X rocket 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <img
+      alt="Rocket"
+      className="rocket col-4"
+      src="https://farm1.staticflickr.com/929/28787338307_3453a11a77_b.jpg"
+    />
+    <div
+      className="col-8"
+    >
+      <h3
+        className="col-12"
+      >
+        Second Space X
+      </h3>
+      <p
+        className="col-12 my-4"
+      >
+        <span
+          className="reserve-text"
+        >
+           
+           
+        </span>
+      </p>
+       
+      <button
+        className="reserve-btn p-3 col-4"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        Reserve Rocket
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Check for the Third Space X Rocket 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <img
+      alt="Rocket"
+      className="rocket col-4"
+      src="	https://farm5.staticflickr.com/4599/38583829295_581f34dd84_b.jpg"
+    />
+    <div
+      className="col-8"
+    >
+      <h3
+        className="col-12"
+      >
+        Third Space X
+      </h3>
+      <p
+        className="col-12 my-4"
+      >
+        <span
+          className="reserve-text"
+        >
+           
+           
+        </span>
+      </p>
+       
+      <button
+        className="reserve-btn p-3 col-4"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        Reserve Rocket
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Check for the Third Space X hub 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <img
+      alt="Rocket"
+      className="rocket col-4"
+      src="	https://farm5.staticflickr.com/4599/38583829295_581f34dd84_b.jpg"
+    />
+    <div
+      className="col-8"
+    >
+      <h3
+        className="col-12"
+      >
+        Space X 3
+      </h3>
+      <p
+        className="col-12 my-4"
+      >
+        <span
+          className="reserve-text"
+        >
+           
+           
+        </span>
+      </p>
+       
+      <button
+        className="reserve-btn p-3 col-4"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        Reserve Rocket
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Check for the first Space X haub 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <img
+      alt="Rocket"
+      className="rocket col-4"
+      src="https://imgur.com/DaCfMsj.jpg"
+    />
+    <div
+      className="col-8"
+    >
+      <h3
+        className="col-12"
+      >
+        Space X 1
+      </h3>
+      <p
+        className="col-12 my-4"
+      >
+        <span
+          className="reserve-text"
+        >
+           
+           
+        </span>
+      </p>
+       
+      <button
+        className="reserve-btn p-3 col-4"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        Reserve Rocket
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Check for the first space x rocket 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <img
+      alt="Rocket"
+      className="rocket col-4"
+      src="https://farm1.staticflickr.com/929/28787338307_3453a11a77_b.jpg"
+    />
+    <div
+      className="col-8"
+    >
+      <h3
+        className="col-12"
+      >
+        First Space X Rocket
+      </h3>
+      <p
+        className="col-12 my-4"
+      >
+        <span
+          className="reserve-text"
+        >
+           
+           
+        </span>
+      </p>
+       
+      <button
+        className="reserve-btn p-3 col-4"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        Reserve Rocket
+      </button>
+    </div>
+  </div>
+</div>
+`;

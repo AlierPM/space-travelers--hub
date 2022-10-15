@@ -1,0 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.img-fluid {
+  object-fit: contain;
+  width: 100%;
+  width: 10rem;
+}
