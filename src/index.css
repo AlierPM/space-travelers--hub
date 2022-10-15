@@ -8,17 +8,19 @@
 }
 
 header {
-  margin-bottom: 70px;
+  margin-bottom: 5rem;
   border-bottom: 1px solid rgb(8, 8, 155);
 }
 
 .navigation {
-  background-color: #fff;
   width: 100%;
   display: flex;
-  margin-top: 20px;
+  margin-top: 0;
   justify-content: space-between;
   align-items: center;
+  background-color: goldenrod;
+  color: rgb(2, 2, 32);
+  border-bottom: 1px solid black;
 }
 
 .Logo-Text {

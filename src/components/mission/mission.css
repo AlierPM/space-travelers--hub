@@ -36,6 +36,7 @@ button {
   border-radius: 15px;
   background: rgb(4, 4, 117);
   color: #fff;
+  padding: 2px 3px;
 }
 
 .activeBtn {
@@ -50,6 +51,7 @@ button {
 
 .leaveBtn {
   border: 1px solid green;
+  border-radius: 15px;
 }
 
 .buttonList {

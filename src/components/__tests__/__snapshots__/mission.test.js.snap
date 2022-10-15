@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<missions /> renders properly as expected 1`] = `
+<missions
+  desc="Lorem ipsum text generate"
+  id="56DFRE"
+  join={[Function]}
+  name="SpaceX"
+  reserved={false}
+/>
+`;
+
+exports[`<missions /> renders properly as expected 2`] = `
+<missions
+  desc="Lorem ipsum text generate"
+  id="56DFRE"
+  join={[Function]}
+  name="SpaceX"
+  reserved={true}
+/>
+`;
