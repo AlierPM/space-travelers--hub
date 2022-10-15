@@ -1,5 +1,5 @@
-@import url("http://fonts.cdnfonts.com/css/montserrat");
-@import url("http://fonts.cdnfonts.com/css/roboto-slab-2");
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+@import url('http://fonts.cdnfonts.com/css/roboto-slab-2');
 
 *,
 *::before,
@@ -19,6 +19,7 @@ header {
   margin-top: 20px;
   justify-content: space-between;
   align-items: center;
+  border-radius: 1px solid blue;
 }
 
 .Logo-Text {
@@ -94,7 +95,7 @@ a:active {
 }
 
 .Myprofile::before {
-  content: "|";
+  content: '|';
   margin-right: 1rem;
 }
 
