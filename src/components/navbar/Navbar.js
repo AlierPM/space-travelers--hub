@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
+import { NavLink, Route, Routes } from 'react-router-dom';
 
 import { useDispatch } from 'react-redux';
 
@@ -28,6 +28,12 @@ function Navbar() {
   useEffect(() => {
     dispatch(fetchMissions());
   }, [dispatch]);
+
+  const styleNav = ({ isActive }) => ({
+    fontWeight: isActive ? 'bold' : 'normal',
+    textDecoration: isActive ? 'underline' : 'none',
+  });
+
   return (
     <div>
       <header className="panel-bg">
@@ -38,24 +44,36 @@ function Navbar() {
           </div>
           <ul>
             <li>
-              <Link to="/" className="Mission Text-Style-3">
+              <NavLink style={styleNav} to="/" className="Mission Text-Style-3">
                 Rocket
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/mission" className="Mission Text-Style-3">
+              <NavLink
+                style={styleNav}
+                to="/mission"
+                className="Mission Text-Style-3"
+              >
                 Missions
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/dragon" className="Myprofile Text-Style-3">
+              <NavLink
+                style={styleNav}
+                to="/dragon"
+                className="Myprofile Text-Style-3"
+              >
                 Dragon
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/profile" className="Myprofile Text-Style-3">
+              <NavLink
+                style={styleNav}
+                to="/profile"
+                className="Myprofile Text-Style-3"
+              >
                 Profile
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
