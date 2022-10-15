@@ -34,9 +34,9 @@ const DragonPage = () => {
             />
           </Col>
           <Col md={8}>
-            <h3>{dragon.dragon_name}</h3>
+            <h3>{dragon.name}</h3>
             <p>
-              <Badge bg="primary">{dragon.reserved ? 'Reserved' : ' '}</Badge>{' '}
+              <Badge bg="primary">{dragon.reserved ? 'Reserved' : ''}</Badge>{' '}
               {dragon.type}
             </p>
             <Button
@@ -53,3 +53,4 @@ const DragonPage = () => {
 };
 
 export default DragonPage;
+
