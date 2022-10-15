@@ -1,15 +1,15 @@
-import React, { useEffect } from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
+import React, { useEffect } from "react";
+import { Link, Route, Routes } from "react-router-dom";
 
-import { useDispatch } from 'react-redux';
+import { useDispatch } from "react-redux";
 
-import Rocketcontainer from '../rocket/rocketcontainer';
-import Mission from '../mission/mission';
-import Profile from '../myProfile/Profile';
-import DragonPage from '../dragon/dragon';
-import { loadDragons } from '../../redux/dragon/dragon';
-import { fetchRockets } from '../../redux/rocket/rocketSlice';
-
+import Rocketcontainer from "../rocket/rocketcontainer";
+import MissionCard from "../mission/missionCard";
+import Profile from "../myProfile/Profile";
+import DragonPage from "../dragon/dragon";
+import { loadDragons } from "../../redux/dragon/dragon";
+import { fetchRockets } from "../../redux/rocket/rocketSlice";
+import { fetchMissions } from "../../redux/mission/missionSlice";
 
 function Navbar() {
   const dispatch = useDispatch();
@@ -38,7 +38,7 @@ function Navbar() {
           </div>
           <ul>
             <li>
-              <Link to="/rocket" className="Mission Text-Style-3">
+              <Link to="/" className="Mission Text-Style-3">
                 Rocket
               </Link>
             </li>
@@ -62,7 +62,7 @@ function Navbar() {
       </header>
       <main>
         <Routes>
-          <Route path="/rocket" element={<Rocketcontainer />} />
+          <Route path="/" element={<Rocketcontainer />} />
           <Route path="/mission" element={<MissionCard />} />
           <Route path="/dragon" element={<DragonPage />} />
           <Route path="/profile" element={<Profile />} />

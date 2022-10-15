@@ -1,5 +1,5 @@
-@import url('http://fonts.cdnfonts.com/css/montserrat');
-@import url('http://fonts.cdnfonts.com/css/roboto-slab-2');
+@import url("http://fonts.cdnfonts.com/css/montserrat");
+@import url("http://fonts.cdnfonts.com/css/roboto-slab-2");
 
 *,
 *::before,
@@ -18,8 +18,8 @@ header {
   margin-top: 0;
   justify-content: space-between;
   align-items: center;
-  background-color: goldenrod;
-  color: rgb(2, 2, 32);
+  background-color: rgba(228, 225, 217, 0.938);
+  color: rgb(7, 7, 114);
   border-bottom: 1px solid black;
 }
 
@@ -96,7 +96,7 @@ a:active {
 }
 
 .Myprofile::before {
-  content: '|';
+  content: "|";
   margin-right: 1rem;
 }
 
