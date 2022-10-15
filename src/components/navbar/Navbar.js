@@ -10,6 +10,7 @@ import DragonPage from '../dragon/dragon';
 import { loadDragons } from '../../redux/dragon/dragon';
 import { fetchRockets } from '../../redux/rocket/rocketSlice';
 
+
 function Navbar() {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -21,7 +22,12 @@ function Navbar() {
   };
   useEffect(() => {
     getDragons();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  useEffect(() => {
+    dispatch(fetchMissions());
+  }, [dispatch]);
   return (
     <div>
       <header className="panel-bg">
@@ -57,7 +63,7 @@ function Navbar() {
       <main>
         <Routes>
           <Route path="/rocket" element={<Rocketcontainer />} />
-          <Route path="/mission" element={<Mission />} />
+          <Route path="/mission" element={<MissionCard />} />
           <Route path="/dragon" element={<DragonPage />} />
           <Route path="/profile" element={<Profile />} />
         </Routes>

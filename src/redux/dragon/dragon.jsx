@@ -52,8 +52,8 @@ export const loadDragons = createAsyncThunk(
       const dragons = data.map((dragon) => ({
         id: dragon.id,
         flickr_images: dragon.flickr_images,
-        dragon_name: dragon.dragon_name,
-        type: dragon.dragon_type,
+        name: dragon.name,
+        type: dragon.type,
         reserved: false,
       }));
       dispatch({

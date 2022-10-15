@@ -13,10 +13,13 @@
 .reserve-btn {
   color: white;
   background: blue;
+  font-size: 18px;
 }
 
 .cancel-btn {
   background: whitesmoke;
+  color: red;
+  font-size: 18px;
 }
 
 .container {

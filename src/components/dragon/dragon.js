@@ -1,12 +1,11 @@
-/* eslint linebreak-style: ["error", "windows"] */
-/* eslint-disable */
+/* eslint-disable react/jsx-one-expression-per-line */
+/* eslint-disable object-curly-newline */
 import React from 'react';
-import "bootstrap/dist/css/bootstrap.css";
-import {
-  Badge, Button, Col, Container, Row, } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+import { Badge, Button, Col, Container, Row } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { bookDragons, cancelDragons } from '../../redux/dragon/dragon';
-import './dragon.css'
+import './dragon.css';
 
 const DragonPage = () => {
   const dispatch = useDispatch();
@@ -27,7 +26,7 @@ const DragonPage = () => {
             <img
               src={
                 dragon.flickr_images.length === 2
-                  ? "https://live.staticflickr.com/8578/16655995541_7817565ea9_k.jpg"
+                  ? 'https://live.staticflickr.com/8578/16655995541_7817565ea9_k.jpg'
                   : dragon.flickr_images
               }
               alt="dragon"
@@ -35,16 +34,16 @@ const DragonPage = () => {
             />
           </Col>
           <Col md={8}>
-            <h3>{dragon.dragon_name}</h3>
+            <h3>{dragon.name}</h3>
             <p>
-              <Badge bg="primary">{dragon.reserved ? "Reserved" : " "}</Badge>{" "}
+              <Badge bg="primary">{dragon.reserved ? 'Reserved' : ''}</Badge>{' '}
               {dragon.type}
             </p>
             <Button
-              variant={dragon.reserved ? "outline-danger" : "primary"}
+              variant={dragon.reserved ? 'outline-danger' : 'primary'}
               onClick={() => clickHandler(dragon.id, dragon.reserved)}
             >
-              {dragon.reserved ? "Cancel Booking" : "Book Dragon"}
+              {dragon.reserved ? 'Cancel Booking' : 'Book Dragon'}
             </Button>
           </Col>
         </Row>
@@ -54,3 +53,4 @@ const DragonPage = () => {
 };
 
 export default DragonPage;
+

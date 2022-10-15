@@ -24,3 +24,12 @@ tbody {
   display: flex;
   flex-direction: column;
 }
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  margin: 0 20px;
+}
