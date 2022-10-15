@@ -1,8 +1,8 @@
-import { configureStore } from "@reduxjs/toolkit";
-import logger from "redux-logger";
-import dragonReducer from "../dragon/dragon";
-import rocketSlice from "../rocket/rocketSlice";
-import missionsReducer from "../mission/missionSlice";
+import { configureStore } from '@reduxjs/toolkit';
+import logger from 'redux-logger';
+import dragonReducer from '../dragon/dragon';
+import rocketSlice from '../rocket/rocketSlice';
+import missionsReducer from '../mission/missionSlice';
 
 const store = configureStore({
   reducer: {
