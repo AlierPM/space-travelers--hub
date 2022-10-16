@@ -28,7 +28,7 @@ const dragonReducer = (state = initialState, action) => {
         ...state,
         isLoading: false,
         dragons: state.dragons.map((dragon) =>
-          dragon.id !== paylaod ? dragon : { ...dragon, reserved: true }
+          dragon.id !== paylaod ? dragon : { ...dragon, reserved: true },
         ),
       };
     case CANCEL_BOOKING:
@@ -36,7 +36,7 @@ const dragonReducer = (state = initialState, action) => {
         ...state,
         isLoading: false,
         dragons: state.dragons.map((dragon) =>
-          dragon.id !== paylaod ? dragon : { ...dragon, reserved: false }
+          dragon.id !== paylaod ? dragon : { ...dragon, reserved: false },
         ),
       };
     default:
@@ -64,7 +64,7 @@ export const loadDragons = createAsyncThunk(
       console.error(error.mssage);
     }
     return args;
-  }
+  },
 );
 
 export const bookDragons = (id) => (dispatch) => {
